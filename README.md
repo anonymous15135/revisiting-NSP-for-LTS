@@ -537,9 +537,13 @@ The CouncilSeg dataset is derived from public municipal meeting minutes and is p
 
 Pre-trained models are available for download:
 
-- **NSP (Portuguese)**: [Hugging Face Model Hub - NSP CouncilSeg PT]
-- **NSP (English)**: [Hugging Face Model Hub - NSP CouncilSeg EN]
-- **TopSeg (Portuguese)**: [Hugging Face Model Hub - TopSeg CouncilSeg PT]
+- **NSP (Portuguese)**: [Hugging Face Model Hub - NSP CouncilSeg PT](https://huggingface.co/anonymous15135/nsp-councilseg)
+- **NSP (English)**: [Hugging Face Model Hub - NSP CouncilSeg EN](https://huggingface.co/anonymous15135/nsp-councilseg-en)
+- **NSP (English)**: [Hugging Face Model Hub - NSP Wikisection_en_city](https://huggingface.co/anonymous15135/nsp-wikisection_en_city)
+
+### Demo
+
+- **Text Segmentation Demo** [Hugging Face Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo)
 
 
 ### External Resources
