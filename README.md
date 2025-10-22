@@ -261,6 +261,8 @@ results_loocv/
 
 ## 6. CouncilSeg Dataset
 
+**Note**: This repository currently provides only a sample of the CouncilSeg dataset for demonstration purposes. The full dataset will be made publicly available upon acceptance of the associated research paper.
+
 ### Overview
 
 **CouncilSeg** is a novel bilingual dataset for topic segmentation, consisting of municipal meeting minutes from 6 Portuguese municipalities with manually annotated segment boundaries. It provides both Portuguese original texts and English translations (automatically translated using Azure AI Translator).
@@ -537,13 +539,9 @@ The CouncilSeg dataset is derived from public municipal meeting minutes and is p
 
 Pre-trained models are available for download:
 
-- **NSP (Portuguese)**: [Hugging Face Model Hub - NSP CouncilSeg PT](https://huggingface.co/anonymous15135/nsp-councilseg)
-- **NSP (English)**: [Hugging Face Model Hub - NSP CouncilSeg EN](https://huggingface.co/anonymous15135/nsp-councilseg-en)
-- **NSP (English)**: [Hugging Face Model Hub - NSP Wikisection_en_city](https://huggingface.co/anonymous15135/nsp-wikisection_en_city)
-
-### Demo
-
-- **Text Segmentation Demo** [Hugging Face Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo)
+- **NSP (Portuguese)**: [Hugging Face Model Hub - NSP CouncilSeg PT]
+- **NSP (English)**: [Hugging Face Model Hub - NSP CouncilSeg EN]
+- **TopSeg (Portuguese)**: [Hugging Face Model Hub - TopSeg CouncilSeg PT]
 
 
 ### External Resources
@@ -560,6 +558,19 @@ Pre-trained models are available for download:
 - Hugging Face for model hosting and transformers library
 - segeval project for evaluation metrics
 - LumberChunker's authors for making their code available
+
+
+## 14. Citation
+
+If you use the dataset or the code in this repository, please cite the paper as:
+
+```bibtex
+@article{isidrorevisiting2025,
+  author       = {José Miguel Isidro and Luís Filipe Cunha and Purificação Silvano and Alípio Jorge and Nuno Guimarães and Sérgio Nunes and Ricardo Campos},
+  title        = {Revisiting Next Sentence Prediction for Linear Text Segmentation},
+  year         = {2025},
+}
+```
 
 ---
 
