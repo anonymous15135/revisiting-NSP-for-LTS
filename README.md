@@ -11,8 +11,9 @@ A comprehensive framework for evaluating topic segmentation algorithms on munici
 
 
 <div align="center">
-    <img width="800" height="511" alt="Github_diagram" src="https://github.com/user-attachments/assets/b27c6303-6dfc-4089-84db-7b918c1ca61c" />
+    <img width="800" height="511" alt="Github_diagram" src="https://github.com/user-attachments/assets/c3e34ce5-c868-4f21-9ac8-f26090eaa3d6" />
 </div>
+
 
 
 ## Description
