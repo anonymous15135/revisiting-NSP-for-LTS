@@ -1,6 +1,13 @@
 # Revisiting Next Sentence Prediction for Linear Text Segmentation
 
-A comprehensive framework for evaluating topic segmentation algorithms on municipal meeting minutes and other structured documents. This project introduces a new segmentation dataset, **CouncilSeg** (see Section [CouncilSeg Dataset](#6-councilseg-dataset)), and implements and benchmarks state-of-the-art neural and classical algorithms for automatic topic boundary detection. The trained models are made publicly available on [HuggingFace](https://huggingface.co/anonymous15135/models) and we also developed a [Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo) for Text Segmentation.
+[![License: CC-BY-ND 4.0](https://img.shields.io/badge/License-CC--BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+
+Official repository for the submission of the paper **"Revisiting Next Sentence Prediction for Linear Text Segmentation"**, for ECIR 2026.
+
+A comprehensive framework for evaluating topic segmentation algorithms on municipal meeting minutes and other structured documents. This project introduces a new segmentation dataset, **CouncilSeg** (see Section [CouncilSeg Dataset](#6-councilseg-dataset)), and implements and benchmarks state-of-the-art neural and classical algorithms for automatic topic boundary detection. 
+> The trained models are made publicly available on [HuggingFace](https://huggingface.co/anonymous15135/models) and we also developed a [Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo) for Text Segmentation.
 
 ## Description
 
@@ -261,7 +268,11 @@ results_loocv/
 
 ## 6. CouncilSeg Dataset
 
-**Note**: This repository currently provides only a sample of the CouncilSeg dataset for demonstration purposes. The full dataset will be made publicly available upon acceptance of the associated research paper.
+> **⚠️ Important Note for Reviewers**:
+> - **Full Dataset**: The complete dataset statistics are shown below, but the full dataset files are **not yet available** in this repository.
+> - **Sample Data**: This repository only includes a sample of **1 annotated document** for demonstration purposes  The full dataset will be made publicly available upon acceptance of the associated research paper.
+> - **Interactive Testing**: To test the model on this example and explore the full capabilities, please visit our **[Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo)**
+
 
 ### Overview
 
