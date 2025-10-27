@@ -9,6 +9,12 @@ Official repository for the submission of the paper **"Revisiting Next Sentence 
 A comprehensive framework for evaluating topic segmentation algorithms on municipal meeting minutes and other structured documents. This project introduces a new segmentation dataset, **CouncilSeg** (see Section [CouncilSeg Dataset](#6-councilseg-dataset)), and implements and benchmarks state-of-the-art neural and classical algorithms for automatic topic boundary detection. 
 > The trained models are made publicly available on [HuggingFace](https://huggingface.co/anonymous15135/models) and we also developed a [Demo](https://huggingface.co/spaces/anonymous15135/nsp-councilseg-demo) for Text Segmentation.
 
+
+<div align="center">
+    <img width="800" height="511" alt="Github_diagram" src="https://github.com/user-attachments/assets/b27c6303-6dfc-4089-84db-7b918c1ca61c" />
+</div>
+
+
 ## Description
 
 This project provides a unified pipeline for training, evaluating, and benchmarking topic segmentation algorithms. Topic segmentation is the task of dividing text into topically coherent segments, which is crucial for:
